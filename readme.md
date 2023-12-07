@@ -1,13 +1,12 @@
-# Classificador de Nível de Herói em JavaScript
+# Simulador de Nível de Herói em JavaScript
 
-## Objetivo
+Este programa em JavaScript simula a interação do jogo com uma API, coletando o nome do jogador e o nível de experiência adquirido até uma determinada fase do jogo. Ele usa a entrada do usuário via console para realizar essa interação.
 
-Este trecho de código é um classificador de nível para heróis baseado na experiência do herói, destinado a ser utilizado em jogos. Ele utiliza os seguintes elementos:
+## Funcionalidades
 
-- **Variáveis:** Armazenam o nome do herói e a experiência (XP).
-- **Operadores:** Utiliza operadores de comparação para determinar o nível do herói.
-- **Laços de Repetição:** Utiliza-se laços de repetição enquanto o jogo estiver ativo.
-- **Estruturas de Decisão:** São utilizadas estruturas de decisão para classificar o nível com base na experiência.
+- **Obtenção de Dados:** O usuário é solicitado a inserir seu nome e nível de experiência no jogo.
+- **Determinação de Nível:** Com base na experiência inserida, o programa determina o nível do herói usando um conjunto pré-definido de níveis e experiências.
+- **Exibição de Saída:** Após a interação, o programa exibe o nível do herói correspondente à experiência inserida.
 
 ## Classificação de Nível
 
@@ -21,43 +20,32 @@ O código classifica o nível do herói com base na experiência (XP) fornecida 
 - XP entre 9001 e 10000: **Imortal**
 - XP maior ou igual a 10001: **Radiante**
 
-## Entrada e Saída
+## Como Usar
 
-Para utilizar este trecho do jogo, o sistema espera os seguintes inputs:
+Para executar este programa, siga estas etapas:
 
-- **Nome do Herói:** String que representa o nome do herói.
-- **Experiência (XP):** Número inteiro que indica a experiência do herói.
+1. Certifique-se de ter o Node.js instalado em seu ambiente.
+2. Clone ou faça o download deste repositório.
+3. Abra o terminal na pasta do projeto.
+4. Execute o comando `node index.js` para iniciar o programa.
+5. Siga as instruções fornecidas no console para inserir o nome do jogador e o nível de experiência.
 
-Ao final, o código retorna a seguinte mensagem:
+## Estrutura do Código
 
-O Herói de nome {nome} está no nível de {nivel}.
+- **`index.js`**: Contém o código principal do programa, escrito em JavaScript.
+- **`readme.md`**: Este arquivo com informações sobre o programa.
 
+## Recursos Utilizados
 
-Substitua `{nome}` pelo nome do herói informado e `{nivel}` pelo nível calculado com base na experiência fornecida.
+- **Variáveis:** Armazenam dados como o nome do jogador e o nível de experiência.
+- **Operadores:** Utilizados para comparar e verificar a validade da entrada do usuário.
+- **Laços de Repetição:** Utilizados para solicitar dados do usuário até que uma entrada válida seja inserida.
+- **Estruturas de Decisão:** Usadas para determinar o nível do herói com base na experiência fornecida.
 
-## Requisitos
+## Pré-requisitos
 
-Para utilizar este trecho de código, você precisará de:
+- Node.js instalado.
 
-- **Node.js:** Certifique-se de ter o Node.js instalado. Você pode baixá-lo [aqui](https://nodejs.org/).
+## Autora
 
-## Como Rodar a Aplicação
-
-Siga os passos abaixo para executar o classificador de nível de herói:
-
-1. **Clone o repositório:**
-   ```bash
-   git clone https://github.com/julianachavespalm/classificador-nivel-heroi.git
-   
-Navegue até o diretório do projeto:
-cd classificador-nivel-heroi
-
-Abra o arquivo index.js no seu editor de código favorito e localize a função/classificador do nível de herói.
-
-Modifique o código para incluir a lógica de entrada de dados (nome do herói e experiência) e a chamada à função/classificador.
-
-Salve as alterações no arquivo index.js.
-
-No terminal, execute o código:
-node index.js
-Após seguir esses passos, o código executará a função/classificador de nível de herói e exibirá a saída no terminal com o nome do herói e o nível calculado com base na experiência fornecida.
+- Juliana Chaves Palm
